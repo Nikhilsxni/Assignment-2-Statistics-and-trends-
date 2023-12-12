@@ -20,7 +20,7 @@ plt.xlabel('% of electricity production')
 plt.ylabel('Frequency')
 plt.grid(axis='y', alpha=0.75)
 
-# Print statistical information using pandas
+# Print statistical information
 stats = df['2015'].describe()
 skewness = df['2015'].skew()
 kurt = df['2015'].kurtosis()
